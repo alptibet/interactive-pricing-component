@@ -16,24 +16,31 @@
         <h3 class="header-3">Sign-up for our 30-day trial.</h3>
         <h3 class="header-3">No credit card required.</h3>
       </header>
-      <main class="main">
-        <h2 class="header-2">100K PAGEVIEWS</h2>
-        <div class="main__slider"></div>
-        <div class="main__pricing"></div>
-        <div class="main__pricing-control"></div>
-        <div class="main__text-content">
-          <p>
-            <span><img src="./assets/icon-check.svg" alt="" /></span> Unlimited websites
-          </p>
-          <p>
-            <span><img src="./assets/icon-check.svg" alt="" /></span> 100% data ownership
-          </p>
-          <p>
-            <span><img src="./assets/icon-check.svg" alt="" /></span> Email reports
-          </p>
+      <main class="pricing-component">
+        <p class="pricing-component__pageviews"><span id="viewcount">100</span>k pageviews</p>
+        <p class="pricing-component__monthly">
+          <span class="pricing-component__monthly-price">$<span id="price">16.00</span></span> <span class="interval">/ month</span>
+        </p>
+        <input type="range" name="input-range" id="input-range" class="pricing-component__input-range" min="10" max="200" value="99" step="5" />
+        <div class="pricing-component__selection">
+          <p>Monthly Billing</p>
+          <div class="radio-btn">
+            <button class="toggle" id="toggle"></button>
+          </div>
+          <p>Yearly Billing</p>
+          <div class="discount-btn">
+            <p>25% <span class="discount-btn__discount">discount</span></p>
+          </div>
         </div>
-        <button class="main__btn">Start my trial</button>
       </main>
+      <div class="cta">
+        <div>
+          <p><img src="./assets/icon-check.svg" alt="" />Unlimited websites</p>
+          <p><img src="./assets/icon-check.svg" alt="" />100% data ownership</p>
+          <p><img src="./assets/icon-check.svg" alt="" />Email reports</p>
+        </div>
+        <button class="cta__btn">Start my trial</button>
+      </div>
     </div>
   </body>
 </html>

@@ -1,0 +1,26 @@
+.header {
+  max-width: 54rem;
+  text-align: center;
+  padding: 8rem 0;
+  background-image: url(../assets/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  & .header-1 {
+    color: $color-dark-desaturated-blue;
+    font-weight: 800;
+    font-size: $font-size-big;
+    padding-bottom: 2rem;
+  }
+
+  & .header-3 {
+    font-size: $font-size-normal;
+    display: inline-block;
+    color: $color-grayish-blue;
+    font-weight: 600;
+
+    @media only screen and (max-width: $bp-small) {
+      display: block;
+    }
+  }
+}

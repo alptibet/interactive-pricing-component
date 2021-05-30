@@ -1,0 +1,36 @@
+.cta {
+  max-width: 54rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  align-items: center;
+  background-color: $color-white;
+  width: 100%[];
+  padding: 3rem;
+  color: $color-grayish-blue;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  overflow: hidden;
+
+  & p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  & img {
+    margin-right: 1.5rem;
+  }
+
+  & p:last-child {
+    margin-bottom: 2rem;
+  }
+
+  &__btn {
+    padding: 1em 3.5em;
+    border: none;
+    border-radius: 100px;
+    background-color: $color-dark-desaturated-blue;
+    color: $color-white;
+    cursor: pointer;
+  }
+}

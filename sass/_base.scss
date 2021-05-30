@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
 
+//FONTS
 $font-primary: 'Manrope', sans-serif;
+$font-size-normal: 1.5rem;
+$font-size-small: 1.1rem;
+$font-size-big: 2rem;
+
+//PRIMARY COLORS
+$color-soft-cyan: hsl(174, 77%, 80%);
+$color-strong-cyan: hsl(174, 86%, 45%);
+$color-light-grayish-red: hsl(14, 92%, 95%);
+$color-light-red: hsl(15, 100%, 70%);
+$color-pale-blue: hsl(226, 100%, 87%);
+
+//NEUTRAL COLORS
+$color-white: hsl(0, 0%, 100%);
+$color-very-pale-blue: hsl(230, 100%, 99%);
+$color-light-grayish-blue-1: hsl(224, 65%, 95%);
+$color-light-grayish-blue-2: hsl(223, 50%, 87%);
+$color-grayish-blue: hsl(225, 20%, 60%);
+$color-dark-desaturated-blue: hsl(227, 35%, 25%);
+
+//BREAKPOINTS
+
+$bp-small: 23.4375rem;
 
 *,
 *::before,
@@ -17,11 +40,15 @@ html {
 
 body {
   font-family: $font-primary;
-  font-weight: 300;
   line-height: 1.6;
+  background-image: url(../assets/bg-pattern.svg);
+  background-color: $color-very-pale-blue;
+  background-repeat: no-repeat;
 }
 
 .container {
   max-width: 1440px;
   display: grid;
+  justify-items: center;
+  grid-template-rows: repeat(3, min-content);
 }
