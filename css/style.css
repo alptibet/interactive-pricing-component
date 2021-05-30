@@ -122,10 +122,12 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1rem 0;
+  transform: translateX(3.5rem);
 }
 @media only screen and (max-width: 23.4375rem) {
   .pricing-component__selection {
     padding: 0;
+    transform: translateX(1.6rem);
   }
 }
 .pricing-component__selection :not(:last-child) {
