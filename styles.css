@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.motherContainer {
+  margin: 0 auto;
+  padding-top: 10rem;
+  max-width: 375px;
+  background-image: url(./assets/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-position: 10% 10%;
+}
