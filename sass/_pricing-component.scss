@@ -82,6 +82,7 @@
       height: 2rem;
       background-color: $color-light-grayish-blue-2;
       border-radius: 1rem;
+      position: relative;
 
       & .toggle {
         height: 1.6rem;
@@ -93,6 +94,7 @@
         background-color: #fff;
         transform: translateX(0);
         transition: all 0.2s ease;
+        position: absolute;
       }
 
       & .toggled {
